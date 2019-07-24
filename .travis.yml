@@ -3,6 +3,6 @@ python:
   - "3.4"
 install: "pip install -r requirements.txt"
 before_script:
-  - chmod +x build.sh
+  - chmod +x manage.py
 script:
   - SECRET_KEY="whatever" ./manage.py test  
